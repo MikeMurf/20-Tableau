@@ -31,11 +31,11 @@ My first task on the job is to build a set of data reports to provide the answer
 *            (object data types take up ten times as much memory as integer or float types which can be a problem in very large data sets 
 *            like those encountered in Citi Bikes),
 *        reduced the amount of memory used for some of the other columns by using the category data type. (Categories are useful when 
-*            there are a limited number of unique values for a column compared to the number of rows. The actual values are stored just once, 
-*            and instead of storing a long string in each row, just an integer is stored that points to the actual value. 
-*            The combined CitiBike file contains some 337,000 rows, but there are only some 1,600 unique “start and end stations”  
-*            so they are good candidates to store as categorical data. The “usertype” column with only two unique values should get similar  
-*            treatment, as should “gender” with three values. Bikeid could also be treated similarly.
+there are a limited number of unique values for a column compared to the number of rows. The actual values are stored just once, 
+and instead of storing a long string in each row, just an integer is stored that points to the actual value. 
+The combined CitiBike file contains some 337,000 rows, but there are only some 1,600 unique “start and end stations”  
+so they are good candidates to store as categorical data. The “usertype” column with only two unique values should get similar  
+treatment, as should “gender” with three values. Bikeid could also be treated similarly.
 *        Note that the number of rows was increased by a factor of 4 to assess Tableau’s capacity to handle big data. (I was encouraged to be creative.)
 *    created a distance column to simplify getting trip distance in Tableau. 
 3.	Used Tableau to satisfy the requirements of the assignment by:
