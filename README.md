@@ -52,7 +52,8 @@ These have been explored and summarised below.
 
 The highlight of this phenomenon is that 15.5% of all trips (209,476) started and ended at the same station. Of these trips 6,776 trips were of 1- or 2-minutes duration indicating that the bikes were returned almost immediately perhaps due to a fault and that the trip had no useful outcome. The remainder of these trips varied from 3 minutes to 22 days duration. It would be useful to analyse these trips further, but data constraints and time preclude that analysis at this stage. 
    
- 
+![image](https://user-images.githubusercontent.com/89948865/163309825-a34f85f4-6e10-48dc-9231-09456b763b87.png)
+
 #### The “Gender Sensitivity” Phenomenon
 Males typically use CitiBikes 2-3 times more than females. The characteristics of their respective trips are similar in terms of average trip duration, average trip speed and, as a corollary of this average trip distance. 
 
@@ -64,15 +65,46 @@ Summer trip patterns show a gradual increase in trips throughout the day startin
 
 In Winter there are predictable morning (8AM) and evening (5-6PM) peaks for trips. These coincide with commuters going to and returning from work. 
  
- 
-### The Other Visualisations Required for the Assignment
-### Dashboards
-In addition to the “Lap Trip” and the “Gender Sensitivity” Dashboards, the following dashboard was created to show the top ranked start and end stations and the bottom ranked start and end stations.
-  
+![image](https://user-images.githubusercontent.com/89948865/163309918-a0589327-f801-4eea-92c9-c62bd34bf23f.png) 
 
- 
-A “Tale of Two CitiBikes Phenomena for Jersey City” 
-This Story Board was created to provide an overview of the program.
+### The Other Visualisations Required for the Assignment 
+
+### Dashboards 
+
+In addition to the “Lap Trip” and the “Gender Sensitivity” Dashboards, the following dashboard was created to show the top ranked start and end stations and the bottom ranked start and end stations.
+
+![image](https://user-images.githubusercontent.com/89948865/163310017-301a2336-4fce-47f6-8b36-c117abce3548.png) 
+
+### A “Tale of Two CitiBikes Phenomena for Jersey City”
+
+#### This Story Board was created to provide an overview of the program. 
+
+![image](https://user-images.githubusercontent.com/89948865/163310111-624254f3-174e-45b1-94ac-6c7ddb830cf1.png) 
+
+![image](https://user-images.githubusercontent.com/89948865/163310149-4d1caf4d-3a55-47c8-991f-9ce3aac62761.png) 
+
+![image](https://user-images.githubusercontent.com/89948865/163310205-9b443b61-1b5b-491b-b018-c5cc2e741d45.png) 
+
+![image](https://user-images.githubusercontent.com/89948865/163310254-463951db-a568-4656-b886-721b3b298794.png) 
+
+![image](https://user-images.githubusercontent.com/89948865/163310276-bed55eaf-53a7-4da5-8138-71ebea326f02.png) 
+
+![image](https://user-images.githubusercontent.com/89948865/163310304-2c796bd9-a214-4879-9c09-db4b8a9380b5.png) 
+
+![image](https://user-images.githubusercontent.com/89948865/163310342-e7303a2e-aa31-402b-8d02-c3152b39c1aa.png) 
+
+![image](https://user-images.githubusercontent.com/89948865/163310382-da996f48-25c5-409a-ba41-64eb4f68deee.png) 
+
+![image](https://user-images.githubusercontent.com/89948865/163310406-a1edcb0d-65cf-4a51-b481-357e68c257d7.png) 
+
+**********************************************************************************************************************************
+
+
+
+
+
+
+
  
  
  
