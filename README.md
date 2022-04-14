@@ -5,7 +5,8 @@
 ![image](https://user-images.githubusercontent.com/89948865/163308462-74031ce2-3004-4207-ba6e-151752d2764e.png) 
 
 Check out my "Tale of Two Phenomena for Jersey City CitiBikes" at my Tableau Public Website
-https://public.tableau.com/app/profile/michael.mike.murphy#!/?newProfile=&activeTab=0
+https://public.tableau.com/app/profile/michael.mike.murphy#!/?newProfile=&activeTab=0 
+
 Click on “mm-citibikes-wip” and download it as a Tableau Workbook for the best way to see the complete workbook.
  
 ### Background
@@ -74,7 +75,9 @@ In Winter there are predictable morning (8AM) and evening (5-6PM) peaks for trip
 In addition to the “Lap Trip” and the “Gender Sensitivity” Dashboards, the following dashboard was created to show the top ranked start and end stations and the bottom ranked start and end stations.
 
 ![image](https://user-images.githubusercontent.com/89948865/163310017-301a2336-4fce-47f6-8b36-c117abce3548.png) 
-
+ 
+  
+  
 ### A “Tale of Two CitiBikes Phenomena for Jersey City”
 
 #### This Story Board was created to provide an overview of the program. 
