@@ -4,12 +4,24 @@
 
 ![image](https://user-images.githubusercontent.com/89948865/163308462-74031ce2-3004-4207-ba6e-151752d2764e.png) 
 
-Check out my "Tale of Two Phenomena for Jersey City CitiBikes" at my Tableau Public Website
+#### Check out my "Tale of Two Phenomena for Jersey City CitiBikes" at my Tableau Public Website
 https://public.tableau.com/app/profile/michael.mike.murphy#!/?newProfile=&activeTab=0 
 
-Click on “mm-citibikes-wip” and download it as a Tableau Workbook for the best way to see the complete workbook.
- 
-### Background
+####  Click on “mm-citibikes-wip” and download it as a Tableau Workbook for the best way to see the complete workbook.
+
+#### The best way to gain a full appreciation of the complete exercise is to visit my GitHub page for the Tableau Assignment at the following link.
+https://github.com/MikeMurf/20-Tableau
+
+There you will find all of the files used in the assignment, the Jupyter Notebook created to clean the data for analysis and visualisation in Tableau and the Tableau workbook used for the analysis and visualisation. 
+The “20_tableau-Submission” directory contains the following files submitted for assessment:
+•	A csv file for each month of 2020 containing the CitiBikes Trip History Log information,
+•	A “combined-2020” csv file which was produced by the Jupyter Notebook,
+•	The “mm-citibikes-JC-2020” Jupyter notebook,
+•	The “mm-citibikes” Tableau Workbook saved from Tableau Public as a .twbx file so that it can be downloaded and run locally,
+•	The “mm-read-me” Word document used as the basis for this GitHub README file. 
+
+### Background 
+
 My job is as the new lead analyst for the New York Citi Bike Program. I am responsible for overseeing the largest bike sharing program in the United States. In my new role, I am expected to generate regular reports for city officials looking to publicize and improve the city program.
 Since 2013, the Citi Bike Program has implemented a robust infrastructure for collecting data on the program's utilization. Through the team's efforts, each month bike data is collected, organized, and made public on the Citi Bike Data webpage.
 However, while the data has been regularly updated, the team has yet to implement a dashboard or sophisticated reporting process. City officials have a number of questions on the program. 
