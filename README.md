@@ -1,7 +1,9 @@
 ### Tableau Homework – CitiBike Analytics
 ### ........................................aka..............................................
 ### A Tale of Two Phenomena for Jersey City CitiBikes
- 
+
+![image](https://user-images.githubusercontent.com/89948865/163308462-74031ce2-3004-4207-ba6e-151752d2764e.png) 
+
 Check out my Story at my Tableau Public Website
 https://public.tableau.com/app/profile/michael.mike.murphy#!/?newProfile=&activeTab=0
  
