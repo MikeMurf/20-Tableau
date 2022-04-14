@@ -23,14 +23,14 @@ My first task on the job is to build a set of data reports to provide the answer
 
 1.	Time span chosen:	January to December 2020
 2.	Created a Jupyter Notebook to:
-o	used  pd.concat combine the 12 csv files for each month of 2020 into a single csv to analyse in Tableau,
-o	performed data cleansing as to minimise processing requirements for Tableau as the raw data has some inherent issues:
-	for example, “trip duration” is  too granular; it is recorded in seconds and was converted to minutes,
-	simplified the scientific notation for the numeric data converting it to two decimal place notation,
-	“starttime” and “stoptime” are loaded as data type object and were converted to timestamp format (object data types take up ten times as much memory as integer or float types which can be a problem in very large data sets like those encountered in Citi Bikes),
-	reduced the amount of memory used for some of the other columns by using the category data type. (Categories are useful when there are a limited number of unique values for a column compared to the number of rows. The actual values are stored just once, and instead of storing a long string in each row, just an integer is stored that points to the actual value. The combined CitiBike file contains some 337,000 rows, but there are only some 1,600 unique “start and end station” so they are good candidates to store as categorical data. The “usertype” column with only two unique values should get similar treatment, as should “gender” with three values. Bikeid could also be treated similarly.
-	Note that the number of rows was increased by a factor of 4 to assess Tableau’s capacity to handle big data. (I was encouraged to be creative.)
-o	created a distance column to simplify getting trip distance in Tableau. 
+*    used  pd.concat combine the 12 csv files for each month of 2020 into a single csv to analyse in Tableau,
+* performed data cleansing as to minimise processing requirements for Tableau as the raw data has some inherent issues:
+*        for example, “trip duration” is  too granular; it is recorded in seconds and was converted to minutes,
+*        simplified the scientific notation for the numeric data converting it to two decimal place notation,
+*        “starttime” and “stoptime” are loaded as data type object and were converted to timestamp format (object data types take up ten times as much memory as integer or float types which can be a problem in very large data sets like those encountered in Citi Bikes),
+*        reduced the amount of memory used for some of the other columns by using the category data type. (Categories are useful when there are a limited number of unique values for a column compared to the number of rows. The actual values are stored just once, and instead of storing a long string in each row, just an integer is stored that points to the actual value. The combined CitiBike file contains some 337,000 rows, but there are only some 1,600 unique “start and end station” so they are good candidates to store as categorical data. The “usertype” column with only two unique values should get similar treatment, as should “gender” with three values. Bikeid could also be treated similarly.
+*        Note that the number of rows was increased by a factor of 4 to assess Tableau’s capacity to handle big data. (I was encouraged to be creative.)
+*    created a distance column to simplify getting trip distance in Tableau. 
 3.	Used Tableau to satisfy the requirements of the assignment by:
 o	Analysing the Citi Bike Trip History Logs and finding two unexpected phenomena,
 o	Designing visualisations for each of the phenomena,
