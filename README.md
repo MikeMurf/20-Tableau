@@ -6,6 +6,7 @@
 
 Check out my "Tale of Two Phenomena for Jersey City CitiBikes" at my Tableau Public Website
 https://public.tableau.com/app/profile/michael.mike.murphy#!/?newProfile=&activeTab=0
+Click on “mm-citibikes-wip” and download it as a Tableau Workbook for the best way to see the complete workbook.
  
 ### Background
 My job is as the new lead analyst for the New York Citi Bike Program. I am responsible for overseeing the largest bike sharing program in the United States. In my new role, I am expected to generate regular reports for city officials looking to publicize and improve the city program.
