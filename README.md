@@ -53,7 +53,7 @@ My first task on the job is to build a set of data reports to provide the answer
 2. Designing visualisations for each of the unexpected phenomena, 
 3. Creating dashboards, a story board, and an official New Jersey city map as requested. 
 
-### Two Unexpected Phenomena
+### Two Unexpected Phenomena Dashboards
 
 #### The two unexpected phenomena discovered while using Tableau to analyse and visualise the trip history data were:
 #### 1.	“Lap Trips”: so named because  the trip started and finished at the same station,
@@ -84,7 +84,7 @@ In Winter there are predictable morning (8AM) and evening (5-6PM) peaks for trip
 
 ### Dashboards 
 
-In addition to the “Lap Trip” and the “Gender Sensitivity” Dashboards, the following dashboard was created to show the top ranked start and end stations and the bottom ranked start and end stations.
+In addition to the “Lap Trip” and the “Gender Sensitivity” Dashboards above, the following dashboard was created to show the top ranked start and end stations and the bottom ranked start and end stations.
 
 ![image](https://user-images.githubusercontent.com/89948865/163310017-301a2336-4fce-47f6-8b36-c117abce3548.png) 
  
