@@ -14,11 +14,11 @@ https://github.com/MikeMurf/20-Tableau
 
 There you will find all of the files used in the assignment, the Jupyter Notebook created to clean the data for analysis and visualisation in Tableau and the Tableau workbook used for the analysis and visualisation. 
 The “20_tableau-Submission” directory contains the following files submitted for assessment:
-•	A csv file for each month of 2020 containing the CitiBikes Trip History Log information,
-•	A “combined-2020” csv file which was produced by the Jupyter Notebook,
-•	The “mm-citibikes-JC-2020” Jupyter notebook,
-•	The “mm-citibikes” Tableau Workbook saved from Tableau Public as a .twbx file so that it can be downloaded and run locally,
-•	The “mm-read-me” Word document used as the basis for this GitHub README file. 
+* A csv file for each month of 2020 containing the CitiBikes Trip History Log information,
+* A “combined-2020” csv file which was produced by the Jupyter Notebook,
+* The “mm-citibikes-JC-2020” Jupyter notebook,
+* The “mm-citibikes” Tableau Workbook saved from Tableau Public as a .twbx file so that it can be downloaded and run locally,
+* The “mm-read-me” Word document used as the basis for this GitHub README file. 
 
 ### Background 
 
