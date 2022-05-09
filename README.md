@@ -14,11 +14,11 @@ https://github.com/MikeMurf/20-Tableau
 
 There you will find all of the files used in the assignment, the Jupyter Notebook created to clean the data for analysis and visualisation in Tableau and the Tableau workbook used for the analysis and visualisation. 
 The “20_tableau-Submission” directory contains the following files submitted for assessment:
-•	A csv file for each month of 2020 containing the CitiBikes Trip History Log information,
-•	A “combined-2020” csv file which was produced by the Jupyter Notebook,
-•	The “mm-citibikes-JC-2020” Jupyter notebook,
-•	The “mm-citibikes” Tableau Workbook saved from Tableau Public as a .twbx file so that it can be downloaded and run locally,
-•	The “mm-read-me” Word document used as the basis for this GitHub README file. 
+* A csv file for each month of 2020 containing the CitiBikes Trip History Log information,
+* A “combined-2020” csv file which was produced by the Jupyter Notebook,
+* The “mm-citibikes-JC-2020” Jupyter notebook,
+* The “mm-citibikes” Tableau Workbook saved from Tableau Public as a .twbx file so that it can be downloaded and run locally,
+* The “mm-read-me” Word document used as the basis for this GitHub README file. 
 
 ### Background 
 
@@ -44,7 +44,7 @@ My first task on the job is to build a set of data reports to provide the answer
 * 2.1 for example, “trip duration” is  too granular; it is recorded in seconds and was converted to minutes, 
 * 2.2 simplified the scientific notation for the numeric data converting it to two decimal place notation, 
 * 2.3 “starttime” and “stoptime” are loaded as data type object and were converted to timestamp format (object data types take up ten times as much memory as integer or float types which can be a problem in very large data sets like those encountered in Citi Bikes), 
-* 2.4 reduced the amount of memory used for some of the other columns by using the category data type. (Categories are useful when there are a limited number of unique values for a column compared to the number of rows. The actual values are stored just once, and instead of storing a long string in each row, just an integer is stored that points to the actual value. The combined CitiBike file contains some 337,000 rows, but there are only some 1,600 unique “start and end station” so they are good candidates to store as categorical data. The “usertype” column with only two unique values should get similar treatment, as should “gender” with three values. Bikeid could also be treated similarly. 
+* 2.4 reduced the amount of memory used for some of the other columns by using the category data type. (Categories are useful when there are a limited number of unique values for a column compared to the number of rows. The actual values are stored just once, and instead of storing a long string in each row, just an integer is stored that points to the actual value. The combined CitiBike file contains some 337,000 rows, but there are only some 1,600 unique “start and end station” so they are good candidates to store as categorical data. The “usertype” column with only two unique values should get similar treatment; as should “gender” with three values. Bikeid could also be treated similarly. 
 3. Note that the number of rows was increased by a factor of 4 to assess Tableau’s capacity to handle big data. (I was encouraged to be creative.) 
 4. created a distance column to simplify getting trip distance in Tableau. 
  
@@ -53,7 +53,7 @@ My first task on the job is to build a set of data reports to provide the answer
 2. Designing visualisations for each of the unexpected phenomena, 
 3. Creating dashboards, a story board, and an official New Jersey city map as requested. 
 
-### Two Unexpected Phenomena
+### Two Unexpected Phenomena Dashboards
 
 #### The two unexpected phenomena discovered while using Tableau to analyse and visualise the trip history data were:
 #### 1.	“Lap Trips”: so named because  the trip started and finished at the same station,
@@ -84,7 +84,7 @@ In Winter there are predictable morning (8AM) and evening (5-6PM) peaks for trip
 
 ### Dashboards 
 
-In addition to the “Lap Trip” and the “Gender Sensitivity” Dashboards, the following dashboard was created to show the top ranked start and end stations and the bottom ranked start and end stations.
+In addition to the “Lap Trip” and the “Gender Sensitivity” Dashboards above, the following dashboard was created to show the top ranked start and end stations and the bottom ranked start and end stations.
 
 ![image](https://user-images.githubusercontent.com/89948865/163310017-301a2336-4fce-47f6-8b36-c117abce3548.png) 
  
